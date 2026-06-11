@@ -1,37 +1,20 @@
-<!-- markdownlint-disable first-line-heading sentences-per-line -->
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# omni-talos
 
-![Omni screenshot](docs/img/omni.png)
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/omni-talos)
 
-<p align="center">
-  <p align="center">SaaS-simple deployment of Kubernetes - on your own hardware.</p>
-  <p align="center">
-    <a href="https://github.com/siderolabs/omni/releases/latest">
-      <img alt="Release" src="https://img.shields.io/github/release/siderolabs/omni.svg?logo=github&logoColor=white&style=flat-square">
-    </a>
-    <a href="https://github.com/siderolabs/omni/releases/latest">
-      <img alt="Pre-release" src="https://img.shields.io/github/release-pre/siderolabs/omni.svg?label=pre-release&logo=GitHub&logoColor=white&style=flat-square">
-    </a>
-  </p>
-</p>
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
----
+## Architecture
 
-Omni manages Kubernetes on bare metal, virtual machines, or in a cloud.
-Built on [Talos Linux](https://talos.dev) by the folks at [Sidero](https://siderolabs.com).
-
-Boot from an Omni image.
-Click to allocate to a cluster.
-That’s it!
-
-- Vanilla Kubernetes, on your machines, under your control.
-- Elegant UI for management and operations
-- Security taken care of—ties into your Enterprise ID provider
-- Highly Available Kubernetes API endpoint built in
-- Firewall friendly—manage edge nodes securely
-- From single-node clusters to the largest scale
-- Support for GPUs and most CSIs
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
 ## Install
+
 
 Omni is available via a [Business Source License](LICENSE) which allows free installations in non-production environments.
 If you would like to deploy Omni for production use please contact [Sidero sales](mailto:sales@siderolabs.com).
@@ -41,40 +24,54 @@ If you would like to self-host Omni for non-production workloads please follow t
 
 To deploy Omni on Kubernetes, see the [Helm chart](deploy/helm/omni/README.md).
 
-## Development
+## Usage
 
-For instructions on developing Omni, see [DEVELOPMENT.md](DEVELOPMENT.md).
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-## Community
+## Configuration
 
-- Support: Questions, bugs, feature requests [GitHub Issues](https://github.com/siderolabs/omni/issues)
-- Slack: Join our [slack channel](https://taloscommunity.slack.com/).
-  Request access via [inviter.co](https://inviter.co/sidero-labs-community).
-- Twitter: [@SideroLabs](https://twitter.com/SideroLabs)
-- Email: [info@SideroLabs.com](mailto:info@SideroLabs.com)
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-If you're interested in this project and would like to help in engineering efforts or have general usage questions, we are happy to have you!
-We hold a weekly meeting that all audiences are welcome to attend.
+## CI
 
-### Office Hours
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
-- When: Mondays at 16:30 UTC.
-- Where: [Google Meet](https://meet.google.com/day-pxhv-zky).
+## Mirror chain
 
-You can subscribe to this meeting by joining the community forum above.
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/omni-talos`](https://github.com/Interested-Deving-1896/omni-talos) and mirrored through:
 
-> Note: You can convert the meeting hours to your [local time](https://everytimezone.com/s/599e61d6).
+```
+Interested-Deving-1896/omni-talos  ──►  OpenOS-Project-OSP/omni-talos  ──►  OpenOS-Project-Ecosystem-OOC/omni-talos
+```
 
-## Contributing
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
-Contributions are welcomed and appreciated!
-See [Contributing](CONTRIBUTING.md) for our guidelines.
+## Contributors
 
-## Licenses
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
 
-The Omni code is released under a combination of two licenses:
+## Origins
 
-- The main Omni Server code is licensed under [Business Source License 1.1 (BSL-1.1)](LICENSE).
-- The [Omni client library](client) is licensed under [Mozilla Public License 2.0 (MPL-2.0)](client/LICENSE).
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
 
-When contributing to an Omni feature, you can find the relevant license in the comments at the top of each file.
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
